@@ -1,62 +1,21 @@
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
+
+# Distribution / packaging
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
-PIPFILE.lock
 
 # Virtual environments
-venv/
-ENV/
-env/
+.env
 .venv
 
-# IDE
+# Tests
+.pytest_cache/
+
+# Editor files
 .vscode/
 .idea/
 *.swp
-*.swo
-*~
-.DS_Store
-
-# Node/Frontend
-node_modules/
-npm-debug.log
-yarn-error.log
-.next/
-out/
-.nuxt/
-dist/
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-
-# Logs
-*.log
-logs/
